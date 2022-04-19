@@ -11,7 +11,7 @@ public class CP {
 		  //Create the connection
 		  String url = "jdbc:mysql://localhost:3306/student_manage";
 		  String user= "root";
-		  String password = "1234";
+		  String password = "";//you can put your MYSQL passsword here.
 		  con = DriverManager.getConnection(url,user,password);
 		  
 	  }
